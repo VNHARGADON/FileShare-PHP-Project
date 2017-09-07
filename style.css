@@ -1,0 +1,247 @@
+body{
+    background-color:#2e2e2e;
+}
+#navbar{
+    background-color: #2e2e2e;
+    color:#e8e8e8;
+    height:auto;
+    width:100%;
+    border-bottom: 1px solid #bababa;
+}
+.button{
+    color: #e8e8e8;
+    text-decoration: none;
+    padding:5px;
+    margin-right:3px;
+    float:left;
+    margin-left:3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.button:link{
+    color:#e8e8e8;
+}
+.button:visited{
+    color:#e8e8e8;
+}
+.button:hover{
+    color:#66ccff;
+}
+.button:active{
+    color:#ff8851;
+}
+#logo{
+    width:80px;
+    height:40px;
+    padding:5px;
+}
+#subForm{
+    padding:5px;
+}
+#fileView{
+    width:50%;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;   
+}
+.postV{
+    color:white;  
+}
+.postV:hover{
+    color:#ff8851;
+}
+#cont{
+    margin-left:auto;
+    text-align:center;
+    margin-right:auto;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+a:link{
+    text-decoration: none;
+    color:#89ffae;
+}
+a:visited{
+    color:#fffb89;
+}
+.postContain{
+    margin-left: auto;
+    margin-top:25px;
+    width:50%;
+    height:auto;
+    margin-right: auto;
+    padding:10px;
+    background-color:white;
+}
+.postTitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid black;
+}
+.postContent{
+    text-align:left;
+    font-family: 'Muli', sans-serif;
+    margin-left:auto;
+    display:block;
+    margin-right:auto;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#loginButton{
+    color: #e8e8e8;
+    float:right;
+    text-decoration: none;
+    padding:5px;
+    margin-right:3px;
+    margin-left:3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+#loginButton:link{
+    color:#e8e8e8;
+}
+#loginButton:visited{
+    color:#e8e8e8;
+}
+#loginButton:hover{
+    color:#66ccff;
+}
+#loginButton:active{
+    color:#ff8851;
+}
+#signUpbutton{
+    color: #e8e8e8;
+    float:right;
+    text-decoration: none;
+    padding:5px;
+    margin-right:3px;
+    margin-left:3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+#signUpbutton:link{
+    color:#e8e8e8;
+}
+#signUpbutton:visited{
+    color:#e8e8e8;
+}
+#signUpbutton:hover{
+    color:#66ccff;
+}
+#signUpbutton:active{
+    color:#ff8851;
+}
+#loginForm{
+    margin-top:25px;
+    padding:10px;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:auto;
+    text-align: center;
+    background-color:white;
+}
+.loginErr{
+    color:white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#signupMess{
+    color:white;
+    text-align: center;
+}
+#postsT{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color:white;
+}
+#hr1{
+    width:25%;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: .35;
+}
+#profileCont{
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    text-align: center;
+}
+#signUpForm{
+    margin-top:25px;
+    padding:10px;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:auto;
+    text-align: center;
+    background-color:white;
+}
+#submitForm{
+    margin-top:25px;
+    padding:10px;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:auto;
+    text-align: center;
+    background-color:white;
+}
+.com{
+    width:45%;
+    height:7%;
+    margin-bottom:5px;
+    padding:10px;
+}
+.butt{
+    width:5%;
+    height:7%;
+    padding:10px;
+}
+.commentCont{
+    margin-left: auto;
+    margin-top:5px;
+    width:50%;
+    height:auto;
+    margin-right: auto;
+    padding:3px;
+    background-color:white;
+}
+.commentUser{
+    text-align: left;
+    margin-left:2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.message{
+    text-align:left;
+    font-family: 'Muli', sans-serif;
+    padding:3px;
+    margin-left:2px;
+}
+#delButton{
+    color:red;
+    text-align: right;
+    float:right;
+
+}
+.header1{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.image{
+    width:75%;
+    height:auto;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding:10px;
+    text-align: center;
+}
