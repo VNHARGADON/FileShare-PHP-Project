@@ -44,7 +44,7 @@ if (isset($_SESSION["user_session"])) {
                 $new_file_name = strtolower($file);
                 $final_file = str_replace(' ', '-', $new_file_name);
                 if (in_array($fileT['extension'], $acceptedEx)) {
-                    if ($new_size > 500000) {
+                    //if ($new_size > 500000) {
                         if (move_uploaded_file($file_loc, $folder . $final_file)) {
                             if ($file_type == 'image/jpeg' || $file_type == 'image/gif' || $file_type == 'image/png' || $file_type == 'image/jpeg' || $file_type == 'text/plain') {
                                 //is image
@@ -61,7 +61,7 @@ if (isset($_SESSION["user_session"])) {
                 } else {
                     echo '<p id="signupMess">File type not accepted!</p>';
                 }
-            }
+            //}
         }
     }
     ?> 
@@ -84,4 +84,4 @@ if (isset($_SESSION["user_session"])) {
             <p class="loginErr">Please login to submit your files!</p>
             <?php
         }
-        ?> 
+        ?>
